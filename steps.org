@@ -1,0 +1,24 @@
+
+* Getting dataset
+** Go to dataset directory. 
+** Run python ddown.py. This will download dataset from Yann LeCunn page 
+http://yann.lecun.com/exdb/mnist/
+** Look at dataset via ipython and show_random_dataset
+** Creating supervised datasets
+** Pybrain quirks
+*** Classification Dataset
+**** undocumented parameter
+**** ._convertToOneOfMany
+*** buildNetwork
+*** BackpropTrainer
+*** Epochs
+*** Testing
+*** Using Neural Network
+****
+net.activate()
+****
+net.activateOnDataset()
+*** Saving Neural Networks
+*** Loading Neural Networks
+http://stackoverflow.com/questions/4334941/how-to-serialize-deserialized-pybrain-networks
+
